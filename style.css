@@ -105,3 +105,74 @@ body {
     background-color: #34495e;
     color: white;
 }
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+/* Table layout */
+.pricing {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.pricing th,
+.pricing td {
+    padding: 15px;
+    border: 1px solid #eeeeee;
+}
+
+/* Header styles */
+.compare {
+    background-color: #f2f2f2;
+    color: #333333;
+    text-align: left;
+    font-weight: bold;
+}
+
+.enterprise {
+    background-color: #4b545d;
+    color: white;
+}
+
+.advance {
+    background-color: #e85b70;
+    color: white;
+}
+
+.starter {
+    background-color: #7ed26d;
+    color: white;
+}
+
+/* Prices */
+.price {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.price.enterprise {
+    color: #4b545d;
+}
+
+.price.advance {
+    color: #e85b70;
+}
+
+.price.starter {
+    color: #7ed26d;
+}
+
+/* Checkmarks */
+.check {
+    color: #7ed26d;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* First column text alignment */
+.pricing td:first-child {
+    text-align: left;
+    font-weight: bold;
+}
